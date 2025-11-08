@@ -1,6 +1,6 @@
 #!/bin/bash
 # =========================================
-# TUICdownloadIC 自动部署脚本（免 root）
+# TUIC over QUIC 自动部署脚本（免 root）
 # 固定 SNI：www.bing.com，
 # =========================================
 set -euo pipefail
@@ -162,5 +162,3 @@ main() {
 }
 
 main "$@"
-
-
